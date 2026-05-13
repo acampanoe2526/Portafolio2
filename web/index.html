@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio d’Alex Campano Eichmann — Alella. CFGS DAW (2025—). Ex-CFGM Gràfica Interactiva. Contacte: campanoalex07@gmail.com" />
+  <title>Alex Campano Eichmann · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,500&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#inici">Saltar al contingut</a>
+
+  <header class="site-header" id="capcalera">
+    <div class="container header-inner">
+      <a class="logo" href="#inici" aria-label="Inici — Alex Campano Eichmann">
+        <span class="logo-mark">ACE</span>
+        <span class="logo-name">Alex Campano</span>
+      </a>
+
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="menu-principal" id="nav-toggle">
+        <span class="sr-only">Obrir o tancar menú</span>
+        <i data-lucide="menu" class="nav-icon nav-icon-menu" aria-hidden="true"></i>
+        <i data-lucide="x" class="nav-icon nav-icon-close" aria-hidden="true"></i>
+      </button>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegació principal">
+        <ul class="nav-list">
+          <li><a href="#inici">Inici</a></li>
+          <li><a href="#sobre-mi">Sobre mi</a></li>
+          <li><a href="#formacio">Formació</a></li>
+          <li><a href="#competencies">Competències</a></li>
+          <li><a href="#projectes">Projectes</a></li>
+          <li><a href="#experiencia">Experiència</a></li>
+          <li><a href="#contacte">Contacte</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Alternar mode fosc">
+        <span data-lucide="moon" class="icon-theme icon-moon" aria-hidden="true"></span>
+        <span data-lucide="sun" class="icon-theme icon-sun" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="inici">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-kicker">Hola, sóc</p>
+          <h1 class="hero-title">Alex Campano Eichmann</h1>
+          <p class="hero-subtitle">Estudiant de Grau Superior en Desenvolupament d'Aplicacions Web</p>
+          <p class="hero-lead">
+            Soc una persona treballadora, motivada i amb ganes d’aprendre. Tinc experiència en el sector informàtic i creatiu: videojocs amb Unity i GDevelop,
+            disseny web amb Figma i webs des de zero amb HTML i CSS, i també WordPress. Combino la part tècnica amb la creativa en cada projecte.
+          </p>
+          <div class="hero-actions">
+            <a href="#projectes" class="btn btn-primary">
+              <i data-lucide="folder-kanban" aria-hidden="true"></i>
+              Veure projectes
+            </a>
+            <a href="#contacte" class="btn btn-ghost">
+              <i data-lucide="mail" aria-hidden="true"></i>
+              Contactar-me
+            </a>
+          </div>
+          <div class="hero-badges" aria-label="Dades ràpides">
+            <span class="badge"><i data-lucide="map-pin" aria-hidden="true"></i> Alella</span>
+            <span class="badge"><i data-lucide="graduation-cap" aria-hidden="true"></i> CFGS DAW</span>
+            <span class="badge"><i data-lucide="palette" aria-hidden="true"></i> GIF + Web</span>
+            <span class="badge"><i data-lucide="briefcase" aria-hidden="true"></i> En actiu laboral</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img src="IMG-20250519-WA0006.jpg" alt="Retrat professional d’Alex Campano Eichmann" width="520" height="680" loading="eager" />
+          </div>
+        </div>
+      </div>
+      <canvas id="hero-shader" class="hero-shader-canvas" aria-hidden="true"></canvas>
+    </section>
+
+    <section class="section section-alt reveal" id="sobre-mi">
+      <div class="container narrow">
+        <header class="section-head">
+          <h2>Sobre mi</h2>
+          <p class="section-intro">Resum professional alineat amb el meu currículum: formació, eines i àmbits on he treballat fins ara.</p>
+        </header>
+        <div class="prose">
+          <p>
+            Soc una persona treballadora, motivada i amb ganes d’aprendre. Tinc experiència en diversos àmbits del sector informàtic i creatiu,
+            incloent-hi la creació i disseny de videojocs amb Unity i GDevelop, el disseny web amb eines com Figma i la creació de pàgines web des de zero amb HTML i CSS,
+            així com amb WordPress.
+          </p>
+          <p>
+            També compto amb coneixements bàsics en XML, JSON, Java i SQL, utilitzant entorns com IntelliJ IDEA i MySQL.
+            En disseny gràfic i multimèdia he treballat amb Photoshop, Illustrator, After Effects, InDesign, Adobe Premiere, DaVinci Resolve, CapCut i Sony Vegas.
+          </p>
+          <p>
+            Actualment estic cursant el CFGS en Desenvolupament d’Aplicacions Web i m’interessa seguir creuant programació, disseny i projectes ben documentats.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="formacio">
+      <div class="container">
+        <header class="section-head">
+          <h2>Formació</h2>
+          <p class="section-intro">Trajectòria formativa orientada al desenvolupament d’aplicacions web i les tecnologies que l’envolten.</p>
+        </header>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <h3>CFGS — Desenvolupament d’Aplicacions Web (DAW)</h3>
+              <p class="timeline-meta">2025 — actualitat · Formació professional</p>
+              <p>
+                Grau superior centrat en desenvolupament multiplataforma, programació web client i servidor, disseny d’interfícies,
+                desplegament i bases de dades, amb projectes integradors i pràctica constant.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <h3>CFGM — Grau Mitjà en Gràfica Interactiva</h3>
+              <p class="timeline-meta">2023 — 2025</p>
+              <p>
+                Formació en creativitat digital, videojocs, multimèdia i disseny interactiu — la base que ara complemento amb el cicle superior de desenvolupament web.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-card">
+              <h3>Educació Secundària Obligatòria (ESO)</h3>
+              <p class="timeline-meta">2019 — 2023 · Alella</p>
+              <p>
+                Etapa que em va introduir en l’organització acadèmica i en les assignatures fonamentals abans d’orientar-me cap als cicles formatius.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt reveal" id="competencies">
+      <div class="container">
+        <header class="section-head">
+          <h2>Competències</h2>
+          <p class="section-intro">Eines i tecnologies que aplico als projectes acadèmics i personals.</p>
+        </header>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon"><i data-lucide="code-2" aria-hidden="true"></i></div>
+            <h3>Web i disseny digital</h3>
+            <p>Pàgines des de zero amb HTML i CSS, treball amb JavaScript segons el projecte, maquetació i WordPress quan toca publicar o prototipar ràpid.</p>
+            <ul class="tag-list">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>WordPress</li><li>Figma</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i data-lucide="server" aria-hidden="true"></i></div>
+            <h3>Programació i dades</h3>
+            <p>Coneixements bàsics en Java, formats d’intercanvi i consultes SQL, amb entorns que faig servir a l’aula i en projectes personals.</p>
+            <ul class="tag-list">
+              <li>Java</li><li>XML</li><li>JSON</li><li>SQL</li><li>MySQL</li><li>IntelliJ IDEA</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i data-lucide="gamepad-2" aria-hidden="true"></i></div>
+            <h3>Videojocs i interactiu</h3>
+            <p>Prototipat i petits jocs amb motors accessibles, equilibrant disseny, lògica i iteració durant el grau mitjà.</p>
+            <ul class="tag-list">
+              <li>Unity</li><li>GDevelop</li><li>Disseny interactiu</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i data-lucide="clapperboard" aria-hidden="true"></i></div>
+            <h3>Gràfica i multimèdia</h3>
+            <p>Maquetació, identitat visual i peça audiovisual: del vectorial al muntatge de vídeo en eines professionals i àgils.</p>
+            <ul class="tag-list">
+              <li>Photoshop</li><li>Illustrator</li><li>InDesign</li><li>After Effects</li><li>Adobe Premiere</li><li>DaVinci</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon"><i data-lucide="git-branch" aria-hidden="true"></i></div>
+            <h3>Eines de treball</h3>
+            <p>Control de versions, editor habitual i desplegament senzill quan el projecte ho permet (per exemple web estàtica a GitHub Pages).</p>
+            <ul class="tag-list">
+              <li>Git</li><li>GitHub</li><li>VS Code</li><li>CapCut</li><li>Sony Vegas</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projectes">
+      <div class="container">
+        <header class="section-head projects-section__head reveal">
+          <h2>Projectes destacats</h2>
+          <p class="section-intro">
+            Aquests projectes reflecteixen la meva evolució entre la programació, el desenvolupament web, els videojocs i la comunicació visual.
+          </p>
+          <p class="projects-section__lede">
+            De la lògica en Java i les bases de dades fins a la maquetació web, els motors de joc i el muntatge audiovisual: un recorregut variat i molt pràctic.
+          </p>
+        </header>
+
+        <div class="projects-editorial">
+          <article class="project-spotlight reveal reveal-delay-1">
+            <div class="project-spotlight__body">
+              <div class="project-spotlight__tags">
+                <span class="project-kind">Free Project</span>
+                <span class="project-kind project-kind--muted">Projecte intermodular</span>
+                <span class="project-kind project-kind--muted">Videojoc 2D</span>
+                <span class="project-kind project-kind--muted">Java</span>
+              </div>
+              <h3 class="project-spotlight__title">Dungeon Quest</h3>
+              <p class="project-spotlight__text">
+                Aquest és el meu Free Project del cicle: un projecte intermodular basat en el desenvolupament d’un videojoc 2D de masmorres. El joc s’ha construït amb Java i Java Swing, i inclou moviment del personatge,
+                exploració del mapa, enemics, objectes, monedes i integració amb MySQL per guardar dades de les partides i crear un rànquing.
+                Aquest treball resumeix la meva part més tècnica i la capacitat de combinar programació, lògica, disseny i documentació en un sol producte.
+              </p>
+              <ul class="project-pills" aria-label="Tecnologies">
+                <li>Java</li>
+                <li>Java Swing</li>
+                <li>MySQL</li>
+                <li>JDBC</li>
+                <li>GitHub</li>
+                <li>IntelliJ IDEA</li>
+              </ul>
+              <a href="#" class="project-cta project-cta--primary">
+                <span>Veure projecte</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="project-spotlight__visual" aria-hidden="true">
+              <div class="project-spotlight__visual-inner">
+                <i data-lucide="gamepad-2"></i>
+                <span class="project-spotlight__visual-label">2D · Dades · Rànquing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-medium reveal reveal-delay-2">
+            <div class="project-medium__accent"></div>
+            <div class="project-medium__inner">
+              <span class="project-kind">Projecte acadèmic</span>
+              <h3 class="project-medium__title">Football Manager</h3>
+              <p class="project-medium__type">Projecte acadèmic · dades esportives · organització i lògica</p>
+              <p class="project-medium__text">
+                Treball entorn al món del futbol on he organitzat dades d’equips, partits, classificacions i jugadors. He treballat l’estructura de la informació,
+                la presentació del contingut esportiu i la lògica necessària per mantenir coherència en les dades, amb proves quan el projecte ho requeria.
+                És un exemple clar de capacitat d’organització, tractament de dades i desenvolupament funcional dins d’un context acadèmic.
+              </p>
+              <ul class="project-pills project-pills--compact" aria-label="Tecnologies">
+                <li>Java</li>
+                <li>JSON</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>Proves unitàries</li>
+                <li>Estructura de dades</li>
+              </ul>
+              <a href="#" class="project-cta project-cta--ghost">
+                <span>Més informació</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-medium reveal reveal-delay-3">
+            <div class="project-medium__accent project-medium__accent--warm"></div>
+            <div class="project-medium__inner">
+              <span class="project-kind">Disseny i desenvolupament web</span>
+              <h3 class="project-medium__title">Projecte web del veterinari</h3>
+              <p class="project-medium__type">Web orientada a servei · usabilitat</p>
+              <p class="project-medium__text">
+                Pàgina web pensada per a un negoci o servei veterinari: estructura visual clara, presentació dels serveis i maquetació de continguts perquè la informació sigui fàcil de seguir.
+                Va ser una oportunitat per practicar disseny web, usabilitat i organització visual com si es tractés d’un encàrrec proper a un client real.
+              </p>
+              <ul class="project-pills project-pills--compact" aria-label="Tecnologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Disseny web</li>
+                <li>Maquetació</li>
+              </ul>
+              <a href="#" class="project-cta project-cta--ghost">
+                <span>Veure projecte</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-compact reveal reveal-delay-4">
+            <div class="project-compact__icon"><i data-lucide="sparkles" aria-hidden="true"></i></div>
+            <span class="project-kind">Grau Mitjà · creativitat digital</span>
+            <h3 class="project-compact__title">Videojocs i gràfica interactiva</h3>
+            <p class="project-compact__text">
+              Durant el cicle de Grau Mitjà en Gràfica Interactiva vaig desenvolupar prototips i petits jocs amb Unity i GDevelop, equilibrant la part creativa amb la tècnica per construir experiències visuals interactives.
+            </p>
+            <ul class="project-pills project-pills--dense" aria-label="Tecnologies">
+              <li>Unity</li>
+              <li>GDevelop</li>
+              <li>Disseny interactiu</li>
+              <li>Narrativa visual</li>
+            </ul>
+            <a href="#" class="project-cta project-cta--inline">
+              <span>Més informació</span>
+              <i data-lucide="chevron-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-compact reveal reveal-delay-5">
+            <div class="project-compact__icon project-compact__icon--video"><i data-lucide="clapperboard" aria-hidden="true"></i></div>
+            <span class="project-kind">Multimèdia</span>
+            <h3 class="project-compact__title">Edició de vídeo i contingut visual</h3>
+            <p class="project-compact__text">
+              Treballs d’edició i muntatge en context acadèmic i de pràctiques: composició visual, ritme i manera de presentar continguts amb eines d’edició professionals i accessibles.
+            </p>
+            <ul class="project-pills project-pills--dense" aria-label="Tecnologies">
+              <li>Adobe Premiere</li>
+              <li>After Effects</li>
+              <li>DaVinci Resolve</li>
+              <li>CapCut</li>
+              <li>Sony Vegas</li>
+            </ul>
+            <a href="#" class="project-cta project-cta--inline">
+              <span>Veure projecte</span>
+              <i data-lucide="chevron-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-compact reveal reveal-delay-6">
+            <div class="project-compact__icon project-compact__icon--web"><i data-lucide="layout" aria-hidden="true"></i></div>
+            <span class="project-kind">Marca personal</span>
+            <h3 class="project-compact__title">Portfolio professional</h3>
+            <p class="project-compact__text">
+              Aquest mateix lloc resumeix el meu perfil, la formació, les competències i una selecció de projectes; és la peça que tanca el cercle entre el que he après i com m’explico com a estudiant de DAW.
+            </p>
+            <ul class="project-pills project-pills--dense" aria-label="Tecnologies">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>GitHub Pages</li>
+            </ul>
+            <a href="#inici" class="project-cta project-cta--inline">
+              <span>Tornar a l’inici</span>
+              <i data-lucide="chevron-right" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt reveal" id="experiencia">
+      <div class="container">
+        <header class="section-head">
+          <h2>Experiència i treballs</h2>
+          <p class="section-intro">Feina actual, pràctiques del cicle mitjà i formació complementària segons el meu CV.</p>
+        </header>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-icon"><i data-lucide="chef-hat" aria-hidden="true"></i></div>
+            <div>
+              <h3>Cuiner · Carpi Pizza</h3>
+              <p class="experience-meta">El Masnou · actualment</p>
+              <p>
+                Treball en equip en entorn de restauració: ritme de servei, responsabilitat i organització diària al costat de la formació en desenvolupament i disseny.
+              </p>
+            </div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-icon"><i data-lucide="landmark" aria-hidden="true"></i></div>
+            <div>
+              <h3>Pràctiques · Alella Poble Cuidador</h3>
+              <p class="experience-meta">2025 · Pràctiques del CFGM en Gràfica Interactiva</p>
+              <p>
+                Durant les pràctiques em vaig dedicar a tasques de disseny gràfic i edició de vídeo per a l’associació, aplicant el que havia après en multimèdia i comunicació visual.
+              </p>
+            </div>
+          </article>
+          <article class="experience-item">
+            <div class="experience-icon"><i data-lucide="award" aria-hidden="true"></i></div>
+            <div>
+              <h3>Títol de premonitor · Fundació Pere Tarrés</h3>
+              <p class="experience-meta">Juliol 2023</p>
+              <p>
+                Formació en dinàmiques de grup i suport a activitats educatives i d’esplai, que reforça la meva comunicació i la responsabilitat amb infants i joves.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contacte">
+      <div class="container">
+        <header class="section-head">
+          <h2>Idiomes i contacte</h2>
+          <p class="section-intro">Dades de contacte i idiomes tal com consten al meu CV.</p>
+        </header>
+        <div class="contact-grid">
+          <div class="languages-card">
+            <h3>Idiomes</h3>
+            <ul class="lang-list">
+              <li><span>Català</span><span class="lang-level">Llengua nativa</span></li>
+              <li><span>Castellà</span><span class="lang-level">Llengua nativa</span></li>
+              <li><span>Anglès</span><span class="lang-level">B1</span></li>
+            </ul>
+          </div>
+          <div class="contact-card">
+            <h3>Contacte</h3>
+            <p class="contact-note">
+              Pots escriure’m per correu o WhatsApp. Si tens perfil de GitHub o LinkedIn públics, pots afegir l’enllaç al codi quan vulguis.
+            </p>
+            <ul class="contact-methods">
+              <li>
+                <a class="contact-link" href="mailto:campanoalex07@gmail.com">
+                  <i data-lucide="mail" aria-hidden="true"></i>
+                  <span>campanoalex07@gmail.com</span>
+                </a>
+              </li>
+              <li>
+                <a class="contact-link" href="tel:+34677220626">
+                  <i data-lucide="phone" aria-hidden="true"></i>
+                  <span>+34 677 220 626</span>
+                </a>
+              </li>
+              <li class="contact-static">
+                <i data-lucide="map-pin" aria-hidden="true"></i>
+                <span>Alella</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand"><strong>Alex Campano Eichmann</strong> · Portfolio acadèmic</p>
+      <p class="footer-note">
+        Web estàtica preparada per GitHub Pages (arrels relatives). Imatge de perfil: <code>IMG-20250519-WA0006.jpg</code>.
+      </p>
+      <button type="button" class="to-top" id="to-top" aria-label="Tornar a dalt">
+        <i data-lucide="arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
